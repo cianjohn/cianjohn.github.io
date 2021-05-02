@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: cursive;
+    /* color: white; */
+    /* background-color:; */
+}
+/* Landing page css */
+.landing {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    display: table;
+}
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+ /* .cardSection {
+    background-color:;
+}  */
+
+.home-inner {
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center bottom;
+
+    background-image: url("../img/...");
+    opacity: .85;
+    position: absolute;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    overflow: hidden;
+}
+#contactBtn {
+    margin-top: .8vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css */
+#flag {
+    height: 10vh;
+}
+#foot {
+    width: 100vw;
+    color: whitesmoke;
+}
+#foot a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+#foot i {
+    font-size: 3rem;
+}
+#foot a:hover {
+    color: rgb(255, 8, 222);
+    text-decoration: none;
+}
+
+#foot p {
+    padding-top: 1%;
+}

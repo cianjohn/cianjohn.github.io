@@ -7,211 +7,106 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal portfolio</title>
+    <title>Cian John</title>
 </head>
 <body>
-    <div id="home">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">logo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active"  href="#">something</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">something else</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="...">another thing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="...">one more</a>
-                </li>
-                
-              </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/favicon.png" alt="logo" style="width: 20%;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active"  href="#">something</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">something else</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="...">another thing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="...">one more</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="landingPage">
+        <div class="landing">
+            <div class="home-wrap">
+                <div class="home-inner">
+                </div>
             </div>
-          </div>
-        </nav>
-      
-      
-      <div class="landing">
-          <div class="home-wrap">
-              <div class="home-inner">
-              </div>
-          </div>
-      </div>
-      <div class="caption text-center">
-          <h1 class="font-weight-bold white-text pt-5 mb-2">Cian Fairchild Walker</h1>               
-          <hr class="hr-light">
-          <h4>Software Engineer</h4> 
-          <a href="#main"><button id="moreBtn" class="btn btn-dark">Find out more</button></a></span> <br>
-          <a href="#foot"><button id="contactBtn" class="btn btn-dark">Contact</button></a></span> 
-               
-      
-      </div>
-      </div>
-      
-      
-      <!-- start of main page -->
-      <div class="container cardSection shadow-lg justify-content-center" id="main">  
+        </div>
+        <div class="caption text-center">
+            <h1>Cian John</h1><h1>Fairchild-Walker</h1>
+                         
+            <hr class="hr-light">
+            <h4>Software Engineer</h4> 
+            <a href="#main"><button id="moreBtn" class="btn btn-dark">Find out more</button></a></span> <br>
+            <a href="#foot"><button id="contactBtn" class="btn btn-dark">Contact</button></a></span> 
+                
+        
+        </div>
+    </section>
+  </header>
+  <main class="container-lg cardSection shadow-lg justify-content-center" id="main"> 
+    <!-- internal nav -->
         <nav class="navbar sticky-top navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sticky top</a>
+            <a class="navbar-brand" href="#aboutSection">About Me</a>
+            <a class="navbar-brand" href="#skillsSection">Skills</a>
+            <a class="navbar-brand" href="#projectsSection">Projects</a>
+            <a class="navbar-brand" href="#timelineSection">Timeline</a>
+            <a class="navbar-brand" href="#foot">Contact</a>
           </div>
         </nav>
       
       
       <!-- intro section -->
       
-       <div class="row introSection">
-         <div class="col text-center">
-           <h2 class="text-center">title</h2>
-            <h6>I am looking for an entry level position in software development. I found my love for coding throughout my time studying at Leeds, doing a bsc in mathematics, i had to use python for data science and running simulations. I found I thoroughly enjoyed, and was actually quite good at, working through algorithms and writing code. I loved the puzzle and the satisfaction that comes from a successful debugging session. <br><br>
-            I had considered my programming skills self taught (the lack of structure at university meant any coding we had to do came from researching how to do it ourselves.) However I have just finished a full time software development bootcamp to round out these skills and knowledge. <br><br>
-            To finish I would say I am a fast learner with a logical approach who values honesty and self reflection.
-            </h6>
+       <section class="row justify-content-center" id="aboutSection">
+         <div class="col">
+
          </div>
-       </div>
+         <div class="col text-center">
+           <h2>title</h2>
+              <p>
+              I am looking for an entry level position in software development. I found my love for coding throughout my time studying at Leeds, doing a bsc in mathematics, i had to use python for data science and running simulations. I found I thoroughly enjoyed, and was actually quite good at, working through algorithms and writing code. I loved the puzzle and the satisfaction that comes from a successful debugging session.
+              </p>
+              <p>
+              I had considered my programming skills self taught (the lack of structure at university meant any coding we had to do came from researching how to do it ourselves.) However I have just finished a full time software development bootcamp to round out these skills and knowledge. 
+              </p>
+              <p>
+              To finish I would say I am a fast learner with a logical approach who values honesty and self reflection.
+              </p>
+         </div>
+       </section>
+       <section class="row justify-content-center" id="skillsSection">
+
+       </section>
+       <section class="row justify-content-center" id="projectsSection">
+
+       </section>
+       <section class="row justify-content-center" id="timelineSection">
+
+      </section>
       
       
-      
-      <!-- start of carousel section use for something--> 
-        <div class="row carouselSection text-center">
-          <h2>title</h2>
-          <div class="col">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block ">
-                    <h5>title</h5>
-                    
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>title</h5>
-                    
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>title</h5>
-                      
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>title</h5>
-                      
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>title</h5>
-                      
-                    </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>        
-          </div>
-        </div>
+    
       
       
-      
-      
-      <!-- start of card section -->
-      
-        <div class="container">
-          <div class="row text-center">
-            <div class="col">
-              <h2>title</h2>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-      
-            <div class="col-10 col-md-6 col-xxl-3">
-        
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="alt">
-                    <div class="card-body">
-                        <h5 class="card-title">a card for something</h5>
-                        <p class="card-text">bottom text</p>
-                    </div>
-                </div>
-              
-            </div>
-            <div class="col-10 col-md-6 col-xxl-3">
-        
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="alt">
-                    <div class="card-body">
-                        <h5 class="card-title">a card for something</h5>
-                        <p class="card-text">bottom text</p>
-                    </div>
-                </div>
-              
-            </div>
-            <div class="col-10 col-md-6 col-xxl-3">
-        
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="alt">
-                    <div class="card-body">
-                        <h5 class="card-title">a card for something</h5>
-                        <p class="card-text">bottom text</p>
-                    </div>
-                </div>
-              
-            </div>
-            <div class="col-10 col-md-6 col-xxl-3">
-        
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="alt">
-                    <div class="card-body">
-                        <h5 class="card-title">a card for something</h5>
-                        <p class="card-text">bottom text</p>
-                    </div>
-                </div>
-              
-            </div>
-          </div>
-        </div>
-      
-      
-      
-      <!-- start of external links to other projects section-->
-        <div class="container">
-          <div class="row text-center">
-            <div class="col">
-              <h2>External links</h2>
-            </div>
-          </div>
+
           <div class="row justify-content-center">
        
             <div class="col-10 col-md-6 col-xl-4">
@@ -238,13 +133,10 @@
             </div>
           </div>
         </div>
+  </main>
       
-      
-      
-      </div>
-      
-      
-      
+
+
       
       <!-- footer section -->
       <footer id="foot" class="bg-dark">

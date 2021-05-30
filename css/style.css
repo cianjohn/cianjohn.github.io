@@ -82,7 +82,7 @@ body {
     font-size: 3rem;
 }
 #foot a:hover {
-    color: rgb(255, 8, 222);
+    color: green;
     text-decoration: none;
 }
 

@@ -6,6 +6,20 @@ body {
     /* color: white; */
     /* background-color:; */
 }
+.scrollTarget {
+    scroll-margin-top: 56px ;
+}
+/* .sticky-top { 
+    padding-top: 0.5em; 
+    top: 0.5em
+} */
+@media (max-width: 454px){
+    .scrollTarget {
+        scroll-margin-top: 97px ;
+    }
+}
+
+
 /* Landing page css */
 .landing {
     height: 100vh;
@@ -51,6 +65,9 @@ body {
     margin-top: .8vh;
 }
 
+section {
+    min-height: 100vh;
+}
 
 
 

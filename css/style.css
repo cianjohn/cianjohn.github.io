@@ -7,18 +7,8 @@ body {
     /* background-color:; */
 }
 .scrollTarget {
-    scroll-margin-top: 56px ;
+    scroll-margin-top: 64px ;
 }
-/* .sticky-top { 
-    padding-top: 0.5em; 
-    top: 0.5em
-} */
-@media (max-width: 454px){
-    .scrollTarget {
-        scroll-margin-top: 97px ;
-    }
-}
-
 
 /* Landing page css */
 .landing {
@@ -84,25 +74,23 @@ section {
 
 
 /* footer css */
-#flag {
-    height: 10vh;
-}
-#foot {
+
+#contact {
     width: 100vw;
     color: whitesmoke;
 }
-#foot a {
+#contact a {
     color: whitesmoke;
     text-decoration: none;
 }
-#foot i {
+#contact i {
     font-size: 3rem;
 }
-#foot a:hover {
-    color: green;
+#contact a:hover {
+    color: grey;
     text-decoration: none;
 }
 
-#foot p {
+#contact p {
     padding-top: 1%;
 }

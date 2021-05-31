@@ -24,16 +24,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-link">
               <a class="nav-link active"  href="#">something</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-link">
               <a class="nav-link" href="#">something else</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-link">
               <a class="nav-link" href="...">another thing</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-link">
               <a class="nav-link" href="...">one more</a>
             </li>
             
@@ -54,28 +54,36 @@
             <hr class="hr-light">
             <h4>Software Engineer</h4> 
             <a href="#main"><button id="moreBtn" class="btn btn-dark">Find out more</button></a></span> <br>
-            <a href="#foot"><button id="contactBtn" class="btn btn-dark">Contact</button></a></span> 
+            <a href="#contact"><button id="contactBtn" class="btn btn-dark">Contact</button></a></span> 
                 
         
         </div>
     </section>
   </header>
-  <main class="container-lg cardSection shadow-lg justify-content-center" id="main"> 
+  <main class="container-lg cardSection shadow-lg justify-content-center" id="main" data-bs-spy="scroll" data-bs-target="#scrollSpyTarget"> 
     <!-- internal nav -->
-        <nav class="navbar sticky-top navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#aboutSection">About Me</a>
-            <a class="navbar-brand" href="#skillsSection">Skills</a>
-            <a class="navbar-brand" href="#projectsSection">Projects</a>
-            <a class="navbar-brand" href="#timelineSection">Timeline</a>
-            <a class="navbar-brand" href="#foot">Contact</a>
+            <a class="navbar-brand" href="#"><img src="img/favicon.png" alt="logo" style="width: 15%;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler scrollSpyTarget">
+              <div class="navbar-nav">
+                <a class="nav-link active" href="#aboutMe">About Me</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#timeline">Timeline</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
           </div>
         </nav>
       
       
       <!-- intro section -->
       
-       <section class="row justify-content-center scrollTarget" id="aboutSection">
+       <section class="row justify-content-center scrollTarget" id="aboutMe">
          <div class="col">
 
          </div>
@@ -92,22 +100,11 @@
               </p>
          </div>
        </section>
-       <section class="row justify-content-center scrollTarget" id="skillsSection">
+       <section class="row justify-content-center scrollTarget" id="skills">
 
        </section>
-       <section class="row justify-content-center" id="projectsSection">
-
-       </section>
-       <section class="row justify-content-center" id="timelineSection">
-
-      </section>
-      
-      
-    
-      
-      
-
-          <div class="row justify-content-center">
+       <section class="row justify-content-center scrollTarget" id="projects">
+         <div class="row justify-content-center">
        
             <div class="col-10 col-md-6 col-xl-4">
           
@@ -133,18 +130,25 @@
             </div>
           </div>
         </div>
+       </section>
+       <section class="row justify-content-center" id="timeline">
+
+      </section>
+      
+      
+    
+      
+      
+
+ 
   </main>
       
 
 
       
       <!-- footer section -->
-      <footer id="foot" class="bg-dark">
-          <div class="row">
-              <div class="col-4 col-sm-3  col-md-2 align-self-center">
-                  <img id="flag" src=".." alt="some logo">
-              </div>
-              
+      <footer id="contact" class="bg-dark">
+          <div class="row"></div>
               <div class="col">
                 <div class="row">
                   <div class="col text-center">
@@ -164,7 +168,7 @@
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                      <a href="#home"><i class="bi bi-arrow-up-square-fill" style="font-size: 2rem;" role="img" aria-label="back to top"></i></a>
+                      <a href="#"><i class="bi bi-arrow-up-square-fill" style="font-size: 2rem;" role="img" aria-label="back to top"></i></a>
                     </div>
                 </div>
               </div>

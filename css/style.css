@@ -2,7 +2,7 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    font-family: cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* color: white; */
     /* background-color:; */
 }

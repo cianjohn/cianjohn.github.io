@@ -7,7 +7,7 @@ body {
     /* background-color:; */
 }
 .scrollTarget {
-    scroll-margin-top: 64px ;
+    scroll-margin-top: 64px ; /* adjusted for nav bar on scroll jump */
 }
 
 /* Landing page css */
@@ -39,7 +39,7 @@ body {
     background-size: cover;
     background-position: center bottom;
 
-    background-image: url("../img/...");
+    /* background-image: url("../img/..."); */
     opacity: .85;
     position: absolute;
 }
@@ -57,9 +57,17 @@ body {
 
 section {
     min-height: 100vh;
+    border-bottom: 5px, solid, black;
+}
+.projectsTitleLink {
+    text-decoration: none;
+    color: inherit;
 }
 
-
+.projectsTitleLink :hover {
+    color: pink;
+    font-size: 3rem;
+}
 
 
 

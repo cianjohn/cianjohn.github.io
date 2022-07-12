@@ -26,10 +26,12 @@ body {
     height: 100%;
 
 }
- /* .cardSection {
-    background-color:;
-}  */
-
+#internalNavBrand { 
+    max-width: 60%
+}
+#internalNavBrand > img{
+    width: 40px
+}
 .home-inner {
     display: table;
     top: 0;
@@ -56,7 +58,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 50vh;
     border-bottom: 5px, solid, black;
 }
 .projectsTitleLink {

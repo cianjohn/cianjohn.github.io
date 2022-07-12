@@ -5,7 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <!-- my css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="stylesheet" href="css/skillsStyle.css">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <!-- favicon -->
@@ -63,9 +63,9 @@
   <main class="container-lg cardSection shadow-lg justify-content-center" id="main"> 
     <!-- internal nav -->
         <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/favicon.png" alt="logo" style="width: 15%;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="container-fluid"id="internalNavBox">
+            <a class="navbar-brand" id="internalNavBrand" href="#"><img src="img/favicon.png" alt="logo" ></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button> 
               <div class="nav justify-content-sm-end collapse navbar-collapse" id="navbarToggler">
@@ -110,28 +110,115 @@
        <hr>
        <!-- skills section -->
        <section class="row justify-content-center scrollTarget" id="skills">
-         <div class="col">
-           <div class="row">
-             <div class="col">
-              <h2 class=sectionTitle>Skills</h2>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col"><p>
-               <ul>
-                 <li>js</li>
-                 <li>python</li>
-                 <li>github</li>
-                 <li>linux comand</li>
-                 <li>html/css</li>
-                 <li>bootstrap</li>
-               </ul>
-             </p></div>
-           </div>
-           <div class="row">
-             <div class="col"></div>
-           </div>
-         </div>
+<!--  Container  -->
+<div class="flexCenterContainer">
+  <div class="overflowHide" >
+  <ul id="progress">
+    <!-- skill 1 -->
+      <li data-name="SVG Skill" data-percent="13%">
+      <svg viewBox="-10 -10 220 220">
+          <use href="#backgroundColourCircle" >
+      </svg>
+      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="81"></path>
+      </svg>
+      </li>
+      <!-- skill 2 -->
+      <li data-name="html/css Skill" data-percent="69% nice">
+      <svg viewBox="-10 -10 220 220">
+          <use href="#backgroundColourCircle" >
+      </svg>
+      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="420"></path>
+      </svg>
+      </li>
+      <!-- skill 3 -->
+      <li data-name="python Skill" data-percent="50%">
+      <svg viewBox="-10 -10 220 220">
+          <use href="#backgroundColourCircle" >
+      </svg>
+      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="315"></path>
+      </svg>
+      </li>
+      <!-- skill 4 -->
+      <li data-name="command line and bash script" data-percent="40%">
+      <svg viewBox="-10 -10 220 220">
+          <use href="#backgroundColourCircle" >
+      </svg>
+      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="290"></path>
+      </svg>
+      </li>
+      <!-- skill 5 -->
+      <li data-name="git Skill" data-percent="65%">
+      <svg viewBox="-10 -10 220 220">
+          <use href="#backgroundColourCircle" >
+      </svg>
+      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="400"></path>
+      </svg>
+      </li>
+      <!-- skill 6 -->
+      <li data-name="javascript Skill" data-percent="92%">
+      <svg viewBox="-10 -10 220 220">
+          <use href="#backgroundColourCircle" >
+      </svg>
+      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="580"></path>
+      </svg>
+      </li>
+  </ul>
+  </div>
+  <button id="skillsNextButton" type="button">
+    &#8250;
+  </button>
+  <button id="skillsPrevButton" type="button">
+    &#8249;
+  </button>
+  </div>
+  <!-- defining background ring-->
+  <svg width="0" height="0">
+      <defs>
+      <g id="backgroundColourCircle" fill="none" stroke-width="8" transform="translate(100,100)">
+      <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+      <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+      <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+      <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+      <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+      <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+      </g>
+      </defs>
+      </svg>
+  <!--  Defining Angle Gradient Colors  -->
+  <svg width="0" height="0">
+  <defs>
+  <linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#618099"/>
+      <stop offset="100%" stop-color="#8e6677"/>
+  </linearGradient>
+  <linearGradient id="cl2" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#8e6677"/>
+      <stop offset="100%" stop-color="#9b5e67"/>
+  </linearGradient>
+  <linearGradient id="cl3" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+      <stop stop-color="#9b5e67"/>
+      <stop offset="100%" stop-color="#9c787a"/>
+  </linearGradient>
+  <linearGradient id="cl4" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+      <stop stop-color="#9c787a"/>
+      <stop offset="100%" stop-color="#817a94"/>
+  </linearGradient>
+  <linearGradient id="cl5" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+      <stop stop-color="#817a94"/>
+      <stop offset="100%" stop-color="#498a98"/>
+  </linearGradient>
+  <linearGradient id="cl6" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#498a98"/>
+      <stop offset="100%" stop-color="#618099"/>
+  </linearGradient>
+  </defs>
+  </svg>
        </section>
        <hr>
        <!-- projects -->
@@ -218,7 +305,7 @@
 
 
 
-
+  <script src="./js/carouselScript.js"></script>
     <!-- bootstrap js forms -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>

@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="css/skillsStyle.css">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <script src="./js/carouselScript.js" defer></script>
+    <script src="./js/contenttoggle.js" defer></script>
+    <!-- bootstrap js forms -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous" defer></script>
+
+
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
@@ -20,7 +27,7 @@
       <!-- main nav to other pages -->
       <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
           <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="../img/favicon.png" alt="logo" style="width: 20%;"></a>
+          <a class="navbar-brand" href="#"><img src="./img/favicon.png" alt="logo" style="width: 20%;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -60,7 +67,7 @@
         </div>
     </section>
   </header>
-  <main class="container-lg cardSection shadow-lg justify-content-center" id="main"> 
+  <main class="container-lg shadow-lg justify-content-center" id="main"> 
     <!-- internal nav -->
         <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
           <div class="container-fluid"id="internalNavBox">
@@ -114,7 +121,8 @@
 <div class="flexCenterContainer">
   <div class="overflowHide" >
   <ul id="progress">
-    <!-- skill 1 -->
+    <!-- note, for percent amount, stroke-dashoffset, max: 630 -->
+    <!-- skill last, here for smooth animation -->
       <li data-name="SVG Skill" data-percent="13%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
@@ -123,25 +131,25 @@
       <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="81"></path>
       </svg>
       </li>
-      <!-- skill 2 -->
-      <li data-name="html/css Skill" data-percent="69% nice">
+      <!-- skill 1 -->
+      <li data-name="Python" data-percent="69% nice">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
       </svg>
       <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="420"></path>
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="629"></path>
+      </svg>
+      </li>
+      <!-- skill 2 -->
+      <li data-name="Javascript" data-percent="80%">
+      <svg viewBox="-10 -10 220 220">
+          <use href="#backgroundColourCircle" >
+      </svg>
+      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="500"></path>
       </svg>
       </li>
       <!-- skill 3 -->
-      <li data-name="python Skill" data-percent="50%">
-      <svg viewBox="-10 -10 220 220">
-          <use href="#backgroundColourCircle" >
-      </svg>
-      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="315"></path>
-      </svg>
-      </li>
-      <!-- skill 4 -->
       <li data-name="command line and bash script" data-percent="40%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
@@ -150,7 +158,7 @@
       <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="290"></path>
       </svg>
       </li>
-      <!-- skill 5 -->
+      <!-- skill 4 -->
       <li data-name="git Skill" data-percent="65%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
@@ -159,7 +167,7 @@
       <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="400"></path>
       </svg>
       </li>
-      <!-- skill 6 -->
+      <!-- skill 5 -->
       <li data-name="javascript Skill" data-percent="92%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
@@ -178,7 +186,7 @@
   </button>
   </div>
   <!-- defining background ring-->
-  <svg width="0" height="0">
+  <svg class="definitionsHidden" width="0" height="0">
       <defs>
       <g id="backgroundColourCircle" fill="none" stroke-width="8" transform="translate(100,100)">
       <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
@@ -191,7 +199,7 @@
       </defs>
       </svg>
   <!--  Defining Angle Gradient Colors  -->
-  <svg width="0" height="0">
+  <svg class="definitionsHidden" width="0" height="0">
   <defs>
   <linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#618099"/>
@@ -219,6 +227,32 @@
   </linearGradient>
   </defs>
   </svg>
+  <div class="card">
+    <!-- title skill 1 -->
+    <h2 class="card-header card-title skillsTitle">Python</h2>
+    <!-- title skill 2 -->
+    <h2 class="card-header card-title hide skillsTitle">Javascript</h2>
+    <!-- title skill 3 -->
+    <h2 class="card-header card-title hide skillsTitle">HTML &amp CSS</h2>
+    <!-- title skill 4 -->
+    <h2 class="card-header card-title hide skillsTitle">Linix &amp BASH</h2>
+    <!-- title skill 5 -->
+    <h2 class="card-header card-title hide skillsTitle">Dynamic Programming</h2>
+    <!-- title skill 6 -->
+    <h2 class="card-header card-title hide skillsTitle">SQL/php/css</h2>
+    <!-- skill 1 content -->
+    <p class="skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <!-- skill 2 content -->
+    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <!-- skill 3 content -->
+    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <!-- skill 4 content -->
+    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <!-- skill 5 content -->
+    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <!-- skill 6 content -->
+    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+  </div>
        </section>
        <hr>
        <!-- projects -->
@@ -293,20 +327,5 @@
               <div class="col-1"></div>
           </div>
       </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="./js/carouselScript.js"></script>
-    <!-- bootstrap js forms -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

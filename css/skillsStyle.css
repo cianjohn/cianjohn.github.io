@@ -12,6 +12,12 @@
     flex-shrink: 0;
     order:1;
 }
+.definitionsHidden {
+    display: block;
+}
+.card { 
+    width: 80%;
+}
 .prevAnimation {
     transform: translate(14rem);
     transition: transform .5s ease-in-out;
@@ -87,6 +93,10 @@
         opacity:.9;
         animation: load 5s;
     }
+
+.hide {
+    display: none;
+}
 @media  (max-width:499px){
     .overflowHide {
         height: 11rem;

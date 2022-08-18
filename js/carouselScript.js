@@ -1,3 +1,5 @@
+// a looping carousel that is responsive to page width, and cycles by only 1 item at a time, with a simple sliding animation
+
 
 let ulcontainer = document.querySelector("ul#progress")
 let skills = document.querySelectorAll("#progress>li")

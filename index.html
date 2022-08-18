@@ -11,6 +11,7 @@
 
     <script src="./js/carouselScript.js" defer></script>
     <script src="./js/contenttoggle.js" defer></script>
+    <script src="./js/scrollspy.js" defer></script>
     <!-- bootstrap js forms -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous" defer></script>
 
@@ -77,7 +78,7 @@
             </button> 
               <div class="nav justify-content-sm-end collapse navbar-collapse" id="navbarToggler">
                 <div class="navbar-nav">
-                  <a class="nav-link active" href="#aboutMe">Bio</a>
+                  <a class="nav-link" href="#aboutMe">Bio</a>
                   <a class="nav-link" href="#skills">Skills</a>
                   <a class="nav-link" href="#projects">Projects</a>
                   <a class="nav-link" href="#contact">Contact</a>
@@ -89,30 +90,16 @@
       
       <!-- intro section -->
       
-       <section class="row justify-content-center scrollTarget" id="aboutMe">
-         <div class="col">
-           <div class="row">
-             <div class="col">
-               <h2 class=sectionTitle>Bio</h2>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col"></div>
-             <div class="col-5 text-center"><p>
-              I am looking for an entry level position in software development, where i can develop my skills as a self taught programmer and continue to follow my passion for coding, during my time studying at the university of leeds i used python libraries like numpy and matplotlib to run numerical simulations; this sparked my interest for coding which i have expanded on by completing a full time software development bootcamp to round out these skills and knowledge.  
-              </p>
-      
-    
-      
-      
-
- 
-              </div>
-           </div>
-           <div class="row">
-             <div class="col"></div>
-           </div>
-         </div>
+       <section class="row scrollTarget" id="aboutMe">
+        <h2 class=sectionTitle>Bio</h2>
+          <div class="col" id="bioCard">
+               <img id="profilePicture" src="./img/profilePicture.jpg" alt="profile pic of cian Walker">
+          </div>
+          <div class="col text-center">
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum numquam rem eos itaque explicabo, fugit fugiat illum! Laborum officiis harum nulla facere natus dolorem porro ipsa quo quasi quas. 
+            </p>
+          </div>
        </section>
        <hr>
        <!-- skills section -->
@@ -123,21 +110,21 @@
   <ul id="progress">
     <!-- note, for percent amount, stroke-dashoffset, max: 630 -->
     <!-- skill last, here for smooth animation -->
-      <li data-name="SVG Skill" data-percent="13%">
+      <li data-name="Algos &amp Dynamic Programming" data-percent="65%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
       </svg>
       <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="81"></path>
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="410"></path>
       </svg>
       </li>
       <!-- skill 1 -->
-      <li data-name="Python" data-percent="69% nice">
+      <li data-name="Python" data-percent="75%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
       </svg>
       <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="629"></path>
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="475"></path>
       </svg>
       </li>
       <!-- skill 2 -->
@@ -150,30 +137,30 @@
       </svg>
       </li>
       <!-- skill 3 -->
-      <li data-name="command line and bash script" data-percent="40%">
+      <li data-name="Linux Shell &amp Bash Scripting" data-percent="55%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
       </svg>
       <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="290"></path>
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="345"></path>
       </svg>
       </li>
       <!-- skill 4 -->
-      <li data-name="git Skill" data-percent="65%">
+      <li data-name="Git Version Control" data-percent="50%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
       </svg>
       <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="400"></path>
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="315"></path>
       </svg>
       </li>
       <!-- skill 5 -->
-      <li data-name="javascript Skill" data-percent="92%">
+      <li data-name="HTML &amp CSS" data-percent="80%">
       <svg viewBox="-10 -10 220 220">
           <use href="#backgroundColourCircle" >
       </svg>
       <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="580"></path>
+      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="504"></path>
       </svg>
       </li>
   </ul>
@@ -230,28 +217,28 @@
   <div class="card">
     <!-- title skill 1 -->
     <h2 class="card-header card-title skillsTitle">Python</h2>
+        <!-- skill 1 content -->
+    <div class="skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     <!-- title skill 2 -->
     <h2 class="card-header card-title hide skillsTitle">Javascript</h2>
-    <!-- title skill 3 -->
-    <h2 class="card-header card-title hide skillsTitle">HTML &amp CSS</h2>
-    <!-- title skill 4 -->
-    <h2 class="card-header card-title hide skillsTitle">Linix &amp BASH</h2>
-    <!-- title skill 5 -->
-    <h2 class="card-header card-title hide skillsTitle">Dynamic Programming</h2>
-    <!-- title skill 6 -->
-    <h2 class="card-header card-title hide skillsTitle">SQL/php/css</h2>
-    <!-- skill 1 content -->
-    <p class="skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
     <!-- skill 2 content -->
-    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
+    <!-- title skill 3 -->
+    <h2 class="card-header card-title hide skillsTitle">Linux Shell &amp Bash Scripting</h2>
     <!-- skill 3 content -->
-    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
+    <!-- title skill 4 -->
+    <h2 class="card-header card-title hide skillsTitle">Git Version Control</h2>
     <!-- skill 4 content -->
-    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
+    <!-- title skill 5 -->
+    <h2 class="card-header card-title hide skillsTitle">HTML &amp CSS</h2>
     <!-- skill 5 content -->
-    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
+    <!-- title skill 6 -->
+    <h2 class="card-header card-title hide skillsTitle">Algos &amp Dynamic Programming</h2>
     <!-- skill 6 content -->
-    <p class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</p>
+    <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
   </div>
        </section>
        <hr>

@@ -1,3 +1,6 @@
+//  replaces content in a box (skill section), with info of whatever item in the carousel is clicked on most recently
+
+
 let skillsEvent = document.querySelectorAll("#progress>li");
 let skillsTitle = document.querySelectorAll(".skillsTitle");
 let skillsContent = document.querySelectorAll(".skillsContent")

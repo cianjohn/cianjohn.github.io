@@ -71,7 +71,21 @@ section {
     font-size: 3rem;
 }
 
+/* bio */
+#aboutMe {
 
+}
+#bioCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#profilePicture {
+    border-radius: 50%;
+    max-width: 50%;
+    max-height: auto;
+    object-fit: cover;
+}
 
 
 

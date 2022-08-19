@@ -175,10 +175,10 @@
 }
 
 @media  (min-width:1301px) {
-    #progress > li:nth-child(-n+5) {
+    #progress > li:nth-child(-n+7) {
         display: inline-block;
     }
-    #skillsNextButton, #skillsPrevButton  {
-        display: none;
+    .overflowHide {
+        width: 72rem;
     }
 }

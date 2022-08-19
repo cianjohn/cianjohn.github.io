@@ -5,8 +5,8 @@ let skillsEvent = document.querySelectorAll("#progress>li");
 let skillsTitle = document.querySelectorAll(".skillsTitle");
 let skillsContent = document.querySelectorAll(".skillsContent")
 
-for (let i = 0; i<6; i++){
-    let j = (i+1)%6;   
+for (let i = 0; i<7; i++){
+    let j = (i+1)%7;   
     skillsEvent[j].addEventListener("click", toggleHide =>
     {       
         skillsTitle.forEach(element => {

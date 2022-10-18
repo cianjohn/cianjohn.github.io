@@ -24,7 +24,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-
 }
 #internalNavBrand { 
     max-width: 60%
@@ -61,42 +60,57 @@ section {
     min-height: 50vh;
     border-bottom: 5px, solid, black;
 }
-.projectsTitleLink {
+#projectsTitleLink {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
-.projectsTitleLink :hover {
-    color: pink;
-    font-size: 3rem;
+#projectsTitleLink :hover {
+    color: grey;
+}
+#projects .row {
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+#projects .col {
+    padding: 0;
+
 }
 
 /* bio */
-#aboutMe {
 
-}
-#bioCard {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
 #profilePicture {
     border-radius: 50%;
     max-width: 50%;
     max-height: auto;
     object-fit: cover;
-    border: 2px solid #000;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
 }
+@media (min-width:768px) {
+    .btn-mobile {
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    .btn-not-mobile {
+        display: none;
+    }
+    .design-mobile {
+        border: 2px solid rgb(0, 0, 0, 0.4);
+        border-radius: 0.25rem;
+        background-clip: border-box;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+        padding-top: 35%;
+        z-index: -10;
+    }
+    #profilePicture {
+        margin-bottom: -40%;
 
-
-
-
-
-
-
-
-
-
+    }
+    
+}
 
 /* footer css */
 

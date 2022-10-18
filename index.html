@@ -34,11 +34,12 @@
           </button>
           <div class="nav justify-content-md-end collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-              <li class="nav-link">
-                  <a class="nav-link" href="./Bio/">Bio</a>
-              </li>
+
               <li class="nav-link">
                   <a class="nav-link"  href="https://cianjohn.com/toDoApp/">Project</a>
+              </li>
+              <li class="nav-link">
+                  <a class="nav-link" href="./Bio/">Hobbies</a>
               </li>
               <li class="nav-link">
                   <a class="nav-link disabled" href="./Contact/">Contact</a>
@@ -90,97 +91,123 @@
       
       <!-- intro section -->
       
-       <section class="row scrollTarget" id="aboutMe">
-        <h2 class=sectionTitle>Bio</h2>
-          <div class="col" id="bioCard">
+       <section class="container-fluid scrollTarget" id="aboutMe">
+        <h2 class=sectionTitle>Cian</h2>
+        <div class="row justify-content-center">
+        
+          <div class="col-md col-10 text-center" id="bioCard">
                <img id="profilePicture" src="./img/profilePicture.jpg" alt="profile pic of cian Walker">
+               <div class="btn-not-mobile">
+                <a href="https://www.linkedin.com/in/cian-fairchild-walker/" class="btn">Linkdin</a>
+                <a href="https://github.com/cianjohn" class="btn">Github</a>
+                <a href="/" class="btn" downlaod>CV</a>
+                </div>
           </div>
-          <div class="col text-center">
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum numquam rem eos itaque explicabo, fugit fugiat illum! Laborum officiis harum nulla facere natus dolorem porro ipsa quo quasi quas. 
-            </p>
-          </div>
+            <div class="design-mobile col-md col-10   align-self-center">
+              <p>
+                I found my love for coding during my studies in Leeds, doing a bsc in mathematics, i had to use python for running simulations for data science. I found I thoroughly enjoyed, excelled at the problem solving aspect of algorithms and writing code. I love the puzzle and the satisfaction that comes from a successful debugging session. 
+              </p><p>
+                i taught myself the fundamentals of programming to use for simulations while studying, to supplement this I took part in a full time software development boot-camp that taught me the intricacies of web development to round out my skills and knowledge. 
+              </p>  
+              <p>
+                To finish I would say I am a fast learner with a logical approach who values honesty and self reflection.
+              </p>
+              <div class="btn-mobile">
+              <a href="https://www.linkedin.com/in/cian-fairchild-walker/" class="btn">Linkdin</a>
+              <a href="https://github.com/cianjohn" class="btn">Github</a>
+              <a href="/" class="btn" downlaod>CV</a>
+              </div>
+            </div>
+            
+        </div>
+        
+        
        </section>
        <hr>
        <!-- skills section -->
        <section class="row justify-content-center scrollTarget" id="skills">
+         <div class="col-11">
+           <h2 class="text-center">Technical Skills</h2>
+           <h6 class="text-center">A representation of my familiarity and ability with various technologies and languages.<br> Ranging from 10%, signifying brief use, to 100% signifying constant use across mulitple projects. A short explantation about each can be found below.  </h6>
+          </div>
+         
 <!--  Container  -->
-<div class="flexCenterContainer">
-  <div class="overflowHide" >
-  <ul id="progress">
-    <!-- note, for percent amount, stroke-dashoffset, max: 630 -->
-    <!-- skill last, here for smooth animation -->
-      <li data-name="Algos &amp Dynamic Programming" data-percent="65%">
-      <svg viewBox="-10 -10 220 220">
-          <use href="#backgroundColourCircle" >
-      </svg>
-      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="410"></path>
-      </svg>
-      </li>
-      <!-- skill 1 -->
-      <li data-name="Python" data-percent="75%">
-      <svg viewBox="-10 -10 220 220">
-          <use href="#backgroundColourCircle" >
-      </svg>
-      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="475"></path>
-      </svg>
-      </li>
-      <!-- skill 2 -->
-      <li data-name="Javascript" data-percent="80%">
-      <svg viewBox="-10 -10 220 220">
-          <use href="#backgroundColourCircle" >
-      </svg>
-      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="500"></path>
-      </svg>
-      </li>
-      <!-- skill 3 -->
-      <li data-name="Linux Shell &amp Bash Scripting" data-percent="55%">
-      <svg viewBox="-10 -10 220 220">
-          <use href="#backgroundColourCircle" >
-      </svg>
-      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="345"></path>
-      </svg>
-      </li>
-      <!-- skill 4 -->
-      <li data-name="Git Version Control" data-percent="50%">
-      <svg viewBox="-10 -10 220 220">
-          <use href="#backgroundColourCircle" >
-      </svg>
-      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="315"></path>
-      </svg>
-      </li>
-      <!-- skill 5 -->
-      <li data-name="HTML &amp CSS" data-percent="80%">
-      <svg viewBox="-10 -10 220 220">
-          <use href="#backgroundColourCircle" >
-      </svg>
-      <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="504"></path>
-      </svg>
-      </li>
-      <!-- skill 6 -->
-      <li data-name="SQL" data-percent="35%">
-        <svg viewBox="-10 -10 220 220">
-            <use href="#backgroundColourCircle" >
-        </svg>
-        <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
-        <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="220"></path>
-        </svg>
-        </li>
-  </ul>
-  </div>
-  <button id="skillsNextButton" type="button">
-    &#8250;
-  </button>
-  <button id="skillsPrevButton" type="button">
-    &#8249;
-  </button>
-  </div>
+        <div class="flexCenterContainer">
+          <div class="overflowHide" >
+          <ul id="progress">
+            <!-- note, for percent amount, stroke-dashoffset, max: 630 -->
+            <!-- skill last, here for smooth animation -->
+              <li data-name="Algos &amp Dynamic Programming" data-percent="65%">
+              <svg viewBox="-10 -10 220 220">
+                  <use href="#backgroundColourCircle" >
+              </svg>
+              <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+              <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="410"></path>
+              </svg>
+              </li>
+              <!-- skill 1 -->
+              <li data-name="Python" data-percent="75%">
+              <svg viewBox="-10 -10 220 220">
+                  <use href="#backgroundColourCircle" >
+              </svg>
+              <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+              <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="475"></path>
+              </svg>
+              </li>
+              <!-- skill 2 -->
+              <li data-name="Javascript" data-percent="80%">
+              <svg viewBox="-10 -10 220 220">
+                  <use href="#backgroundColourCircle" >
+              </svg>
+              <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+              <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="500"></path>
+              </svg>
+              </li>
+              <!-- skill 3 -->
+              <li data-name="Linux Shell &amp Bash Scripting" data-percent="55%">
+              <svg viewBox="-10 -10 220 220">
+                  <use href="#backgroundColourCircle" >
+              </svg>
+              <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+              <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="345"></path>
+              </svg>
+              </li>
+              <!-- skill 4 -->
+              <li data-name="Git Version Control" data-percent="50%">
+              <svg viewBox="-10 -10 220 220">
+                  <use href="#backgroundColourCircle" >
+              </svg>
+              <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+              <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="315"></path>
+              </svg>
+              </li>
+              <!-- skill 5 -->
+              <li data-name="HTML &amp CSS" data-percent="80%">
+              <svg viewBox="-10 -10 220 220">
+                  <use href="#backgroundColourCircle" >
+              </svg>
+              <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+              <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="504"></path>
+              </svg>
+              </li>
+              <!-- skill 6 -->
+              <li data-name="SQL" data-percent="35%">
+                <svg viewBox="-10 -10 220 220">
+                    <use href="#backgroundColourCircle" >
+                </svg>
+                <svg class="frontAnimationCircle"viewBox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="220"></path>
+                </svg>
+                </li>
+          </ul>
+          </div>
+          <button id="skillsNextButton" type="button">
+            &#8250;
+          </button>
+          <button id="skillsPrevButton" type="button">
+            &#8249;
+          </button>
+          </div>
   <!-- defining background ring-->
   <svg class="definitionsHidden" width="0" height="0">
       <defs>
@@ -223,76 +250,103 @@
   </linearGradient>
   </defs>
   </svg>
-  <div class="card">
+  <div class="card skillInfo">
     <!-- title skill 1 -->
-    <h2 class="card-header card-title skillsTitle">Python</h2>
+    <h3 class="card-header card-title skillsTitle">Python</h3>
         <!-- skill 1 content -->
     <div class="skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     <!-- title skill 2 -->
-    <h2 class="card-header card-title hide skillsTitle">Javascript</h2>
+    <h3 class="card-header card-title hide skillsTitle">Javascript</h3>
     <!-- skill 2 content -->
     <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     <!-- title skill 3 -->
-    <h2 class="card-header card-title hide skillsTitle">Linux Shell &amp Bash Scripting</h2>
+    <h3 class="card-header card-title hide skillsTitle">Linux Shell &amp Bash Scripting</h2>
     <!-- skill 3 content -->
     <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     <!-- title skill 4 -->
-    <h2 class="card-header card-title hide skillsTitle">Git Version Control</h2>
+    <h3 class="card-header card-title hide skillsTitle">Git Version Control</h3>
     <!-- skill 4 content -->
     <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     <!-- title skill 5 -->
-    <h2 class="card-header card-title hide skillsTitle">HTML &amp CSS</h2>
+    <h3 class="card-header card-title hide skillsTitle">HTML &amp CSS</h3>
     <!-- skill 5 content -->
     <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     <!-- title skill 6 -->
-    <h2 class="card-header card-title hide skillsTitle">SQL</h2>
+    <h3 class="card-header card-title hide skillsTitle">SQL</h3>
     <!-- skill 6 content -->
     <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     <!-- title skill 7 -->
-    <h2 class="card-header card-title hide skillsTitle">Algos &amp Dynamic Programming</h2>
+    <h3 class="card-header card-title hide skillsTitle">Algos &amp Dynamic Programming</h3>
     <!-- skill 7 content -->
     <div class="hide skillsContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio voluptatem suscipit repellat omnis, neque nostrum esse a rerum veritatis vitae molestias dolore saepe unde debitis, error</div>
     
   </div>
-       </section>
-       <hr>
-       <!-- projects -->
-       <section class="row justify-content-center scrollTarget" id="projects">
-          <div class="col">
-            <div class="row">
-              <div class="col">
-                <a href="./Projects/" class="projectsTitleLink"><h2 class="sectionTitle">Projects</h2></a>
-                
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="https://cianjohn.com/toDoApp" class="btn btn-primary">Go somewhere</a> <a href="https://github.com/cianjohn/toDoApp/blob/main/js/update.js" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col"></div>
+  </section>
+  <hr>
+  <!-- projects -->
+  <section class="scrollTarget" id="projects">
+    <div class="row">
+      <div class="text-center">
+        <a href="./Projects/" id="projectsTitleLink"><h2 class="text-center sectionTitle">Projects</h2></a>
+        <h6 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum sequi accusamus dolore repellat officiis, itaque eaque suscipit asperiores! Facere praesentium commodi quidem explicabo error ipsum officia vitae reiciendis nulla?</h6>
+      </div>
+    </div>
+
+      <div class="row row-cols-lg-4 row-cols-3 py-4 justify-content-evenly ">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">To Do Application</h5>
+              <img src="..." class="card-img-top" alt="...">
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="https://cianjohn.com/toDoApp" class="btn btn-dark">Try Out App</a> <a href="https://github.com/cianjohn/toDoApp/blob/main/js/update.js" class="btn btn-dark">View Code</a>
             </div>
           </div>
-       </section>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Rock Paper Scissors</h5>
+              <img src="..." class="card-img-top" alt="...">
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Play Game</a>
+              <a href="#" class="btn btn-dark">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tick Tack Toe</h5>
+              <img src="..." class="card-img-top" alt="...">
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Play Game</a>
+              <a href="#" class="btn btn-dark">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Exercise Picker (working title)</h5>
+              <img src="..." class="card-img-top" alt="...">
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Try Out App</a> <a href="#" class="btn btn-dark">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Data Structures and Algorythms </h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">view Code Collection</a>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+  </section>
 
   </main>
       
@@ -305,7 +359,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col text-center">
-                    <p>This website was built by Cian Fairchild Walker using <i class="bi bi-bootstrap" style="font-size: 1rem;"></i>ootstrap 5 and css 3.</p>
+                    <p>This website was built by Cian Walker, the code for which can be found on my github, <a href="https://github.com/cianjohn/cianjohn.github.io">here</a> </p>
                   </div>
                 </div>
                 <div class="row " id="linkdin">

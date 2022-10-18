@@ -1,1 +1,36 @@
+Bio:
+
 I am looking for an entry level position in software development, where i can develop my skills as a self taught programmer and continue to follow my passion for coding, during my time studying at the university of leeds i used python libraries like numpy and matplotlib to run numerical simulations; this sparked my interest for coding which i have expanded on by completing a full time software development bootcamp to round out these skills and knowledge. 
+
+Python:
+-the language i learned progamming in. during my time at leeds university, 
+
+Javascript:
+
+terminal:
+
+git:
+
+Html/css:
+
+SQL:
+
+Algos:
+
+
+
+
+TO DO APP:
+
+rock paper scissors:
+
+ticktack toe
+
+exercise picker: (
+    scheduler
+)
+
+sql comment database
+
+
+data structures and algo work

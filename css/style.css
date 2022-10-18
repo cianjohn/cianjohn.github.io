@@ -9,7 +9,7 @@ body {
 .scrollTarget {
     scroll-margin-top: 64px ; /* adjusted for nav bar on scroll jump */
 }
-
+/**/
 /* Landing page css */
 .landing {
     height: 100vh;

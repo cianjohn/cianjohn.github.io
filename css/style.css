@@ -69,12 +69,9 @@ section {
 #projectsTitleLink :hover {
     color: grey;
 }
-#projects .row {
-    gap: 1.5rem;
-    padding: 1.5rem;
-}
+
 #projects .col {
-    padding: 0;
+    padding: 1rem 1.5rem;
 
 }
 
@@ -103,11 +100,13 @@ section {
         background-clip: border-box;
         box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
         padding-top: 35%;
-        z-index: -10;
     }
     #profilePicture {
         margin-bottom: -40%;
 
+    }
+    #bioCard{
+        z-index: 5;
     }
     
 }

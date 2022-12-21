@@ -4,7 +4,7 @@ const menuLinks = document.querySelectorAll("#internalNavBox .nav-link")
 const sections = document.querySelectorAll("main section")
 const Footer = document.querySelector("footer")
 // add a section margin so scroll spy moves on before section hits top of screen size is in pixels
-const sectionMargin = 100
+const sectionMargin = 350
 
 
 window.addEventListener("scroll", () => {
